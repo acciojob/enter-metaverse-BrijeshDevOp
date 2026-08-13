@@ -6,6 +6,7 @@ const btn = document.getElementById("enterBtn");
 let content = "Entered Metaverse";
 
 btn.addEventListener("click",function() {
+	p.innerHtml = content;
 	h1.innerHtml = p.innerHtml;
 	p.replaceWith(h1);
 });
